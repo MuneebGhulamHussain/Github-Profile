@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+.forFlex{
+    /* border: 2px solid pink; */
+    height: 95vh;
+    /* width: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+}
+
+
+
+
+
+.inputContainer{
+    /* border: 1px solid white; */
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+.inputContainer input{
+    width: 98%;
+    height: 45px;
+    outline: none;
+    padding-left: 6px;
+    font-size: 1.3em;
+      font-family: "Archivo Black";
+      border-radius: 10px;
+      border: none;
+}
+.inputContainer button{
+    display: flex;
+    font-size: 1.3em;
+    border-radius: 10px;
+    align-items: center;
+      font-family: "Archivo Black";
+      outline: none;
+      background: linear-gradient(90deg, black, #6a11cb);
+      color: white;
+      border: none;
+      cursor: pointer;
+}
+.secondMainParent{
+    /* border: 2px solid white; */
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, black, #6a11cb);
+    box-shadow: 
+  rgba(255, 255, 255, 0.19) 0px 10px 20px 0px,  /* soft, larger shadow */
+  rgba(255, 255, 255, 0.23) 0px 6px 6px 0px;   /* smaller, darker shadow */
+
+}
+.imageAndText{
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.imageAndText p{
+    width: 300px;
+    text-align: center;
+    /* border: 2px solid green ; */
+}
+.imageAndText img{
+    width: 130px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.bio{
+    width: 400px !important;
+    /* text-align: center !important; */
+    text-align: justify !important;
+    display: flex;
+    justify-content: center !important;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.bottomContainer{
+    /* border: 1px solid pink; */
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.repoDiv{
+    /* border: 1px solid yellow; */
+
+}
+.repoDiv p{
+    text-align: center;
+}
+@media only screen and (max-width:552px){
+    .inputContainer{
+        width: 90%;
+    }
+    .secondMainParent{
+        width: 90%;
+    }
+    .bottomContainer{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:375px){
+    .para{
+        font-size: 0.8em !important;
+    }
+    .inputContainer button{
+        /* width: 50px; */
+        font-size: 0.8em;
+    }
+}
+
