@@ -81,6 +81,23 @@
     margin-top: -10px;
     margin-bottom: 30px;
 }
+@media only screen and (max-width:507px){
+    .bio{
+        width: 300px !important;
+        font-size: 0.8em;
+        font-weight: 200;
+    }
+}
+@media only screen and (max-width:378px){
+    .bio{
+        width: 250px !important;
+        font-size: 0.8em;
+        font-weight: 200;
+    }
+}
+
+
+
 .bottomContainer{
     /* border: 1px solid pink; */
     width: 450px;
